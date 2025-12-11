@@ -1,0 +1,38 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="recursos/estilos.css">
+</head>
+<body>
+    <div id="marco-total">
+        <div id="lista" class="">
+            <div class="toggle-btn">
+                <span>☰</span>
+            </div>
+            <ul>
+                <li>Slide 1</li>
+                <li>Slide 2</li>
+                <li>Slide 3</li>
+                <li>Slide 4</li>
+                <li>Slide 5</li>
+                <li>Slide 6</li>
+                <li>Slide 7</li>
+                <li>Slide 8</li>
+            </ul>
+        </div>
+        <div id="container">
+            <img src="recursos/Diapositiva1.jpeg" width="100%">
+        </div>
+        <div id="controls">
+            <button id="btnRetroceder" class="boton-personalizado" disabled="">back</button>
+                 <span class="contador">
+                     <span id="slideActual">1</span>/
+                     <span id="totalSlides">8</span>
+                 </span>
+            <button id="btnAvanzar" class="boton-personalizado">next</button>
+        </div>
+    </div>
+     <input id="num_slides" type="hidden" value="8">
+    <script src="recursos/app.js"></script>
+</body></html>
